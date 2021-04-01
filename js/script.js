@@ -11,7 +11,7 @@ menuBtn.addEventListener('click', () => {
 // Scroll Button Hide/Show
 window.addEventListener('scroll', () => {
 	const scrollY = window.scrollY;
-	console.log(scrollY);
+	// console.log(scrollY);
 
 	if (Math.round(scrollY) <= 250) {
 		scrollToTopBtn.style.display = 'none';
